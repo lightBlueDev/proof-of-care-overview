@@ -1,0 +1,63 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#F6F4EF"/>
+  <rect x="36" y="36" width="1208" height="568" rx="30" fill="#FFFDF8" stroke="#D7D0C2" stroke-width="2"/>
+  <circle cx="1044" cy="118" r="196" fill="url(#poc-glow)" opacity="0.55"/>
+  <circle cx="150" cy="544" r="210" fill="url(#poc-glow-2)" opacity="0.3"/>
+
+  <text x="92" y="126" fill="#1F2937" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="700">Proof-of-Care</text>
+  <text x="92" y="170" fill="#6B7280" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28">Governed trust boundary for autonomous agents</text>
+
+  <text x="92" y="252" fill="#2B2419" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700">Signed authority.</text>
+  <text x="92" y="296" fill="#2B2419" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700">Domain-specific standing.</text>
+  <text x="92" y="340" fill="#2B2419" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700">Fail-closed execution.</text>
+
+  <text x="92" y="408" fill="#6A6256" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">A deterministic, auditable control boundary between</text>
+  <text x="92" y="438" fill="#6A6256" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">agent intent and real-world action.</text>
+
+  <rect x="92" y="500" width="194" height="44" rx="22" fill="#F1E7CB" stroke="#C6A85D" stroke-width="1.5"/>
+  <text x="189" y="528" text-anchor="middle" fill="#6F551F" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700">Governance Boundary</text>
+  <rect x="302" y="500" width="184" height="44" rx="22" fill="#E8F0EC" stroke="#6D8F7F" stroke-width="1.5"/>
+  <text x="394" y="528" text-anchor="middle" fill="#315045" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700">Auditable Decisions</text>
+  <rect x="502" y="500" width="152" height="44" rx="22" fill="#EEE8F7" stroke="#8373B3" stroke-width="1.5"/>
+  <text x="578" y="528" text-anchor="middle" fill="#4F4178" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700">Policy Replay</text>
+
+  <rect x="730" y="148" width="156" height="86" rx="18" fill="#F3EFE4" stroke="#B7A98A" stroke-width="2"/>
+  <text x="808" y="183" text-anchor="middle" fill="#3A3123" font-family="'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700">Session</text>
+  <text x="808" y="212" text-anchor="middle" fill="#625645" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">bounded request</text>
+
+  <rect x="922" y="148" width="196" height="86" rx="18" fill="#E8F0EC" stroke="#6D8F7F" stroke-width="2"/>
+  <text x="1020" y="183" text-anchor="middle" fill="#213A31" font-family="'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700">Signed Manifest</text>
+  <text x="1020" y="212" text-anchor="middle" fill="#416055" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">issued authority</text>
+
+  <rect x="790" y="288" width="176" height="86" rx="18" fill="#F9E6E2" stroke="#B77263" stroke-width="2"/>
+  <text x="878" y="323" text-anchor="middle" fill="#4B241A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700">Gateway</text>
+  <text x="878" y="352" text-anchor="middle" fill="#7A4337" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">allow, deny, escalate</text>
+
+  <rect x="1002" y="288" width="146" height="86" rx="18" fill="#EEF2F7" stroke="#7890AF" stroke-width="2"/>
+  <text x="1075" y="323" text-anchor="middle" fill="#25364C" font-family="'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700">Execution</text>
+  <text x="1075" y="352" text-anchor="middle" fill="#4B607C" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">fail-closed path</text>
+
+  <rect x="836" y="438" width="242" height="90" rx="20" fill="#FAF1D8" stroke="#C6A85D" stroke-width="2"/>
+  <text x="957" y="474" text-anchor="middle" fill="#694F19" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700">Audit + Standing Update</text>
+  <text x="957" y="504" text-anchor="middle" fill="#80642D" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">decision history feeds</text>
+  <text x="957" y="524" text-anchor="middle" fill="#80642D" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">future authority</text>
+
+  <path d="M886 191H922" stroke="#8B826E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1020 234V260C1020 276 1008 288 988 288H966" stroke="#8B826E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M966 331H1002" stroke="#8B826E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1075 374V400C1075 422 1056 438 1030 438" stroke="#8B826E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M836 482H790C760 482 742 462 742 438V245" stroke="#8B826E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M742 245L756 257" stroke="#8B826E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M742 245L759 241" stroke="#8B826E" stroke-width="3" stroke-linecap="round"/>
+
+  <defs>
+    <radialGradient id="poc-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1044 118) rotate(90) scale(196)">
+      <stop stop-color="#D7CCB5"/>
+      <stop offset="1" stop-color="#D7CCB5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="poc-glow-2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(150 544) rotate(90) scale(210)">
+      <stop stop-color="#E4DCC8"/>
+      <stop offset="1" stop-color="#E4DCC8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

@@ -7,3 +7,5 @@ Only sanitized, documentation-safe assets should be placed here.
 Current assets:
 
 - `governed-execution-boundary.svg`
+- `social-preview.svg`
+- `social-preview.png`
