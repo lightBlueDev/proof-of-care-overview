@@ -7,6 +7,8 @@ Its role is to decide whether an agent may perform a requested action under curr
 
 > Private implementation repository. This public repository is a documentation-first technical overview of the architecture, governance model, and current prototype scope.
 
+![Proof-of-Care overview diagram](assets/governed-execution-boundary.svg)
+
 ## Why This Project Exists
 
 Many agent systems still treat trust as a static permission problem. That approach is easy to ship, but weak once an agent's behavior starts to matter operationally.
@@ -87,6 +89,7 @@ This overview repository is organized to make the system legible without exposin
 - `docs/authority-model.md`: signed authority and capability boundaries
 - `docs/standing-model.md`: how standing changes over time
 - `docs/audit-and-replay.md`: audit trail, evaluation, and policy replay concepts
+- `docs/public-positioning.md`: concise public-facing positioning and shareable summary copy
 - `docs/status.md`: current scope, maturity, and limitations
 - `examples/`: sanitized examples of public-facing artifacts and shapes
 

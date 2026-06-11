@@ -1,0 +1,44 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#F6F4EF"/>
+  <rect x="56" y="52" width="1088" height="616" rx="28" fill="#FFFDF8" stroke="#D7D0C2" stroke-width="2"/>
+  <text x="96" y="122" fill="#1F2937" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="700">Proof-of-Care</text>
+  <text x="96" y="160" fill="#6B7280" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Governed trust boundary for autonomous agents</text>
+  <rect x="96" y="222" width="170" height="92" rx="18" fill="#F3EFE4" stroke="#B7A98A" stroke-width="2"/>
+  <text x="132" y="260" fill="#3A3123" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700">Session</text>
+  <text x="123" y="290" fill="#5D5344" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Actor, context,</text>
+  <text x="133" y="310" fill="#5D5344" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">request scope</text>
+  <rect x="316" y="222" width="202" height="92" rx="18" fill="#E8F0EC" stroke="#6D8F7F" stroke-width="2"/>
+  <text x="350" y="260" fill="#213A31" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700">Signed Manifest</text>
+  <text x="348" y="290" fill="#416055" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Bounded authority</text>
+  <text x="355" y="310" fill="#416055" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">issued up front</text>
+  <rect x="568" y="222" width="184" height="92" rx="18" fill="#F9E6E2" stroke="#B77263" stroke-width="2"/>
+  <text x="611" y="260" fill="#4B241A" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700">Gateway</text>
+  <text x="600" y="290" fill="#7A4337" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Allow, deny,</text>
+  <text x="605" y="310" fill="#7A4337" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">or escalate</text>
+  <rect x="802" y="222" width="150" height="92" rx="18" fill="#EEF2F7" stroke="#7890AF" stroke-width="2"/>
+  <text x="837" y="260" fill="#25364C" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700">Shim</text>
+  <text x="827" y="290" fill="#4B607C" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Fail-closed</text>
+  <text x="825" y="310" fill="#4B607C" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">enforcement</text>
+  <rect x="984" y="222" width="120" height="92" rx="18" fill="#F4F4F5" stroke="#8F8F95" stroke-width="2"/>
+  <text x="1006" y="260" fill="#313135" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700">Tool</text>
+  <text x="1006" y="290" fill="#5B5B61" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Execution</text>
+  <path d="M266 268H316" stroke="#7C7464" stroke-width="3" stroke-linecap="round"/>
+  <path d="M518 268H568" stroke="#7C7464" stroke-width="3" stroke-linecap="round"/>
+  <path d="M752 268H802" stroke="#7C7464" stroke-width="3" stroke-linecap="round"/>
+  <path d="M952 268H984" stroke="#7C7464" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1104 360C1104 468 957 548 746 548H318C196 548 118 509 102 452" stroke="#A08E6B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M102 452L92 468" stroke="#A08E6B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M102 452L118 460" stroke="#A08E6B" stroke-width="3" stroke-linecap="round"/>
+  <rect x="210" y="474" width="258" height="98" rx="20" fill="#FAF1D8" stroke="#C6A85D" stroke-width="2"/>
+  <text x="246" y="514" fill="#594316" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700">Audit Trail</text>
+  <text x="239" y="544" fill="#7D6330" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Decision history is part</text>
+  <text x="252" y="564" fill="#7D6330" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">of the control surface</text>
+  <rect x="516" y="474" width="214" height="98" rx="20" fill="#E6F2F0" stroke="#6A9C92" stroke-width="2"/>
+  <text x="550" y="514" fill="#1F4740" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700">Standing Update</text>
+  <text x="548" y="544" fill="#416A63" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Trust changes over time</text>
+  <text x="562" y="564" fill="#416A63" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">by governed evidence</text>
+  <rect x="778" y="474" width="250" height="98" rx="20" fill="#ECE8F7" stroke="#8373B3" stroke-width="2"/>
+  <text x="816" y="514" fill="#352955" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700">Manifest Reissue</text>
+  <text x="816" y="544" fill="#5A4C86" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Future authority reflects</text>
+  <text x="843" y="564" fill="#5A4C86" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">updated standing</text>
+</svg>
