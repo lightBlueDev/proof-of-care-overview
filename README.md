@@ -1,11 +1,19 @@
 # Proof-of-Care
 ## Governed Trust Boundary for Autonomous Agents
 
-Proof-of-Care is a governance substrate for safety-bounded agent execution.
+Proof-of-Care is a governed execution boundary for autonomous agents.
 
-Its role is to decide whether an agent may perform a requested action under current authority, standing, policy, and context conditions, then enforce that decision at the execution boundary. It should be understood as a control layer between agent intent and real-world action, not as a dashboard product or a generic orchestration framework.
+It evaluates whether an agent may perform a requested action under current authority, standing, policy, and context conditions, then enforces that decision at the execution boundary. It should be understood as a control layer between agent intent and real-world action, not as a dashboard product or a generic orchestration framework.
 
 > Private implementation repository. This public repository is a documentation-first technical overview of the architecture, governance model, and current prototype scope.
+
+## At A Glance
+
+- Category: runtime governance and execution control for autonomous agents
+- Core problem: static permissions are too weak once agent behavior matters operationally
+- Distinctive idea: authority is issued explicitly, evaluated deterministically, and enforced fail-closed at the action boundary
+- Current maturity: serious prototype with a narrow but inspectable control surface
+- Best for: recruiters, technical evaluators, and teams interested in governed autonomy
 
 ![Proof-of-Care overview diagram](assets/governed-execution-boundary.svg)
 
@@ -25,7 +33,7 @@ Proof-of-Care exists to answer those questions with a governed execution boundar
 
 ## Core Thesis
 
-Proof-of-Care places a deterministic, auditable governance boundary between agent intent and real-world action.
+Proof-of-Care places a deterministic, auditable trust boundary between agent intent and real-world action.
 
 Instead of relying on static permissions alone, it combines:
 
